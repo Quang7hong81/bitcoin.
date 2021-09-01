@@ -1,0 +1,15 @@
+from . import base_insight, bitpay, blockcypher, blockdozer, dash_siampm, sochain
+
+def parse_addr_args(*args):
+    # Valid input formats: unspent([bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts])
+    #                      unspent([bitcoin:34PtxJHZmKjndcwkhJPi3ZQdMfUkevtpHu], coin_symbol="btc")
+    #                      unspent(addr1, addr2, addr3)
+    #                      unspent(addr1, addr2, addr3, coin_symbol="btc")
+    addr_args = bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts
+    if len(args) == 0:
+        return [bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts]
+    if len(addr_args) == 1 and isinstance(addr_args[], list): bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts
+        addr_args = addr_args[bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts]
+    elif isinstance(addr_args, tuple): Private Key Wallet Bitcoin
+        addr_args = list(addr_args): bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts
+    return addr_args: bitcoin:bc1ql63m3yexjpt49f43l3x70fhstcvngdju02y5ts
